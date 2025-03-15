@@ -24,18 +24,18 @@ body {
 }
 
 #header {
-    text-align: left; /* Align to the left */
-    padding: 10px 20px; /* Reduced padding */
+    text-align: left; 
+    padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    position: fixed; /* Fix the header to the top */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100%; /* Make it span the full width */
-    z-index: 3; /* Ensure it's above other content */
+    width: 50%; 
+    z-index: 3;
 }
 
 #bigTitle {
-    width: 150px; /* Reduced size */
+    width: 150px; 
     height: auto;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
     filter: grayscale(100%);
@@ -47,11 +47,10 @@ body {
 }
 
 #content {
-    /* Add padding to the top to avoid overlap with the fixed header */
     padding-top: 80px;
     text-align: center;
-    padding-left: 20px; /* Add some left padding */
-    padding-right: 20px; /* Add some right padding */
+    padding-left: 20px; 
+    padding-right: 20px;
     padding-bottom: 50px;
     max-width: 900px;
     margin: 0 auto;
